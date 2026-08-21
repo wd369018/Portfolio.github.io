@@ -104,7 +104,7 @@ revealEls.forEach(el => observer.observe(el));
 // 1. Go to https://web3forms.com and get a FREE Access Key with your email.
 // 2. Paste the key below in place of "YOUR_ACCESS_KEY_HERE".
 // This lets visitors email you directly from the form, with CV / cover letter attachments.
-const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE";
+const WEB3FORMS_ACCESS_KEY = "8311245c-6c37-439d-bb45-787faed12a53";
 
 const contactForm = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
@@ -112,7 +112,7 @@ const formStatus = document.getElementById("formStatus");
 contactForm.addEventListener("submit", async function (e) {
     e.preventDefault();
 
-    if (WEB3FORMS_ACCESS_KEY === "YOUR_ACCESS_KEY_HERE") {
+    if (WEB3FORMS_ACCESS_KEY === "8311245c-6c37-439d-bb45-787faed12a53") {
         // Fallback: open the user's email client with a prefilled message
         const name = contactForm.name.value;
         const email = contactForm.email.value;
