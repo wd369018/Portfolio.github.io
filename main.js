@@ -112,7 +112,7 @@ const formStatus = document.getElementById("formStatus");
 contactForm.addEventListener("submit", async function (e) {
     e.preventDefault();
 
-    if (WEB3FORMS_ACCESS_KEY === "8311245c-6c37-439d-bb45-787faed12a53") {
+    if (WEB3FORMS_ACCESS_KEY === "YOUR_ACCESS_KEY_HERE") {
         // Fallback: open the user's email client with a prefilled message
         const name = contactForm.name.value;
         const email = contactForm.email.value;
